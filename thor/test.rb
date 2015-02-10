@@ -1,7 +1,7 @@
 require 'thor'
 
 class CLI < Thor
-    desc "this is desc and NAME", "here is name NAME"
+    desc "hello NAME", "say hello to NAME"
 
     def hello(name)
         puts "name: #{name}"
